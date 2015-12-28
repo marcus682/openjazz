@@ -74,39 +74,39 @@
 #define CONFIG_FILE "c:\\data\\openjazz\\openjazz.cfg"
 #endif
 #else
-#define CONFIG_FILE "openjazz.cfg"
+#define CONFIG_FILE "~/.openjazz.cfg"
 #endif
-#define LOGO_FILE   "openjazz.000"
-#define LEVEL_FILE  "openjazz.tmp"
+#define LOGO_FILE   "/usr/share/openjazz/openjazz.000"
+#define LEVEL_FILE  "/usr/share/openjazz/openjazz.tmp"
 
-#define F_FONTS        "FONTS.000"
-#define F_MAINCHAR     "MAINCHAR.000"
-#define F_MENU         "MENU.000"
-#define F_PANEL        "PANEL.000"
-#define F_SOUNDS       "SOUNDS.000"
-#define F_BONUS        "BONUS.000"
-#define F_ANIMS_J2A    "ANIMS.J2A"
+#define F_FONTS        "/usr/share/openjazz/FONTS.000"
+#define F_MAINCHAR     "/usr/share/openjazz/MAINCHAR.000"
+#define F_MENU         "/usr/share/openjazz/MENU.000"
+#define F_PANEL        "/usr/share/openjazz/PANEL.000"
+#define F_SOUNDS       "/usr/share/openjazz/SOUNDS.000"
+#define F_BONUS        "/usr/share/openjazz/BONUS.000"
+#define F_ANIMS_J2A    "/usr/share/openjazz/ANIMS.J2A"
 
-#define F_BONUS_0SC    "BONUS.0SC"
-#define F_END_0SC      "END.0SC"
-#define F_INSTRUCT_0SC "INSTRUCT.0SC"
-#define F_ORDER_0SC    "ORDER.0SC"
-#define F_STARTUP_0SC  "STARTUP.0SC"
+#define F_BONUS_0SC    "/usr/share/openjazz/BONUS.0SC"
+#define F_END_0SC      "/usr/share/openjazz/END.0SC"
+#define F_INSTRUCT_0SC "/usr/share/openjazz/INSTRUCT.0SC"
+#define F_ORDER_0SC    "/usr/share/openjazz/ORDER.0SC"
+#define F_STARTUP_0SC  "/usr/share/openjazz/STARTUP.0SC"
 
-#define F_MACRO        "MACRO.1"
+#define F_MACRO        "/usr/share/openjazz/MACRO.1"
 
-#define F_FONT2_0FN    "FONT2.0FN"
-#define F_FONTBIG_0FN  "FONTBIG.0FN"
-#define F_FONTINY_0FN  "FONTINY.0FN"
-#define F_FONTMN1_0FN  "FONTMN1.0FN"
-#define F_FONTMN2_0FN  "FONTMN2.0FN"
+#define F_FONT2_0FN    "/usr/share/openjazz/FONT2.0FN"
+#define F_FONTBIG_0FN  "/usr/share/openjazz/FONTBIG.0FN"
+#define F_FONTINY_0FN  "/usr/share/openjazz/FONTINY.0FN"
+#define F_FONTMN1_0FN  "/usr/share/openjazz/FONTMN1.0FN"
+#define F_FONTMN2_0FN  "/usr/share/openjazz/FONTMN2.0FN"
 
 // File path prefixes
-#define F_BLOCKS       "BLOCKS"
-#define F_BONUSMAP     "BONUSMAP"
-#define F_LEVEL        "LEVEL"
-#define F_PLANET       "PLANET"
-#define F_SPRITES      "SPRITES"
+#define F_BLOCKS       "/usr/share/openjazz/BLOCKS"
+#define F_BONUSMAP     "/usr/share/openjazz/BONUSMAP"
+#define F_LEVEL        "/usr/share/openjazz/LEVEL"
+#define F_PLANET       "/usr/share/openjazz/PLANET"
+#define F_SPRITES      "/usr/share/openjazz/SPRITES"
 
 
 // Standard string length
